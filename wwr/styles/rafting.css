@@ -1,0 +1,84 @@
+:root {
+    --primary-color: #F1CE1A;
+    --secondary-color: #015277;
+    --accent1-color: #BCBCBC;
+    --accent2-color: #E0338D;
+}
+
+body{
+    width: 70%;
+    height: auto;
+    margin: auto;
+    
+}
+
+header {
+  
+}
+
+header img{
+    
+}
+
+nav {
+  
+}
+
+a {
+
+}
+
+main{
+
+}
+
+.hero{
+    position: relative;
+}
+
+.hero img {
+    display:block;
+    width: 100%;
+    height: auto;
+}
+
+
+.hero h1 {
+    top: 0%;
+    background-color: #bcbcbc56 ;
+    position: absolute;
+ 
+    font-family: "Quicksand", serif;
+}
+
+
+.hero article {
+    top: 30%;
+    position: absolute;
+    background-color: #01527786;
+}
+
+.hero article img{
+    float: right;
+    width: 150px;
+    height: auto;
+
+}
+
+section  img{
+ width: 50%;
+ height: auto;
+}
+
+h2 {
+    font-family: "Permanent Marker", serif;
+    color: var(--primary-color);
+}
+
+p {
+    font-family: "Quicksand", serif;
+}
+
+footer {
+
+}
