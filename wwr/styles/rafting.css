@@ -13,26 +13,42 @@ body{
 }
 
 header {
-  
+    background-color: var(--secondary-color);
+	display: grid;
+	grid-template-columns: 200px 1fr;
+    border: 1px solid black;
+    place-items: center stretch;
 }
 
-header img{
-    
+header img{   
 }
 
 nav {
-  
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+ 
 }
 
-a {
-
+.pagelinks a {
+    color: black;
+    padding: 5px;
+    border: 1px solid black;
+    text-decoration: none;
+    background-color: var(--accent1-color);
 }
+
+.pagelinks a:hover{
+    background-color: #635e5e;
+}
+
 
 main{
 
 }
 
 .hero{
+    margin-top: 10px;
     position: relative;
 }
 
@@ -55,20 +71,37 @@ main{
 .hero article {
     top: 30%;
     position: absolute;
-    background-color: #01527786;
+    background-color:#bcbcbcc0;
 }
 
 .hero article img{
     float: right;
     width: 150px;
-    height: auto;
+    height: 150px;
 
 }
 
-section  img{
- width: 50%;
- height: auto;
+.history{
+    margin-top: 10px;
+    border: 1px solid black;
+    background-color: var(--secondary-color);
 }
+
+.history h2{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    letter-spacing: 3px;
+    text-decoration: underline black;
+}
+
+.history p{
+    background-color: var(--accent1-color);
+    padding: 10px;
+}
+
 
 h2 {
     font-family: "Permanent Marker", serif;
@@ -79,6 +112,71 @@ p {
     font-family: "Quicksand", serif;
 }
 
-footer {
+.slideshow{
+    margin-top: 10px;
+    border: 1px solid black;
+    background-color: var(--secondary-color);
+}
 
+.slideshow h2{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    letter-spacing: 3px;
+    text-decoration: underline black;
+}
+
+
+.slideshow img{
+     max-width: 220px;
+    max-height: 150px;
+
+}
+
+.slides{
+    display: flex;
+    flex-direction: row;
+}
+
+figure{
+    background-color: var(--primary-color);
+  border: 1px solid black;
+  display: flex;
+  flex-flow: column;
+  padding: 5px;
+  max-width: 220px;
+  margin: auto;
+}
+
+figcaption {
+    background-color: var(--accent1-color);
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+  }
+
+footer {
+    margin-top: 10px;
+    background-color: var(--secondary-color);
+	display: grid;
+	grid-template-columns: 3fr 1fr;
+    border: 1px solid black;
+    place-items: center stretch;
+}
+
+footer p{
+    display: flex;
+    justify-content:center;
+}
+
+.sociallinks{
+    display: flex;
+    justify-content: right  space-evenly;
+}
+
+.sociallinks img{
+    width: 50px;
+    height: auto;
 }
