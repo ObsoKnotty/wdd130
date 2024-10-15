@@ -173,10 +173,150 @@ footer p{
 
 .sociallinks{
     display: flex;
-    justify-content: right  space-evenly;
+    justify-content: space-evenly;
 }
 
 .sociallinks img{
     width: 50px;
     height: auto;
+}
+
+.wireframe {
+    text-align: center;
+    color: black;
+    padding: 1px;
+    border: 1px solid black;
+    text-decoration: none;
+    background-color: var(--accent1-color);
+}
+
+.employees{
+    display: flex;
+    border: thin solid black;
+    background-color: var(--accent1-color);
+    
+}
+
+.employees h2{
+    text-align: center;
+    text-decoration: underline black;
+    font-size: 40px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    letter-spacing: 3px;
+    text-decoration: underline black;
+}
+
+.employees div {
+    display: flex;
+    flex-direction: row;
+}
+
+.employees figure{
+    margin: 10px;
+}
+
+.employees img{
+    width: 220px;
+    height: 220px;
+}
+
+
+form {
+    padding: 1rem;
+    border: thin solid black;
+    border-radius: 0.5rem;
+    background-color: var(--accent1-color);
+    display: grid;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: .5rem;
+    margin: 1rem;
+    border: thin solid black;
+    padding: 1rem;
+}
+
+legend {
+    padding: 0.5rem;
+    color: var(--secondary-color);
+    font-size: 1.3em;
+}
+
+
+label {
+    text-align: right;
+    padding: 1rem;
+}
+
+input, select, textarea {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+}
+
+input[type="checkbox"] {
+    width: 25px;
+    height: 25px;
+    vertical-align: bottom;
+}
+
+button {
+    margin: 1rem;
+    background-color: var(--secondary-color);
+    color: white;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+}
+
+button:hover {
+    background-color: steelblue;
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+}
+
+.column1 {
+    grid-template-columns: 3fr 1fr;
+    margin: 1rem 0;
+}
+
+.column2{
+    text-align: center;
+    place-self: center;
+
+}
+
+.column2 label {
+    text-align: center;
+}
+
+
+.company_info {
+    background-color: var(--secondary-color);
+    border: thin solid black;
+    border-radius: 0.5em;
+    margin-top: 10px;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.company_info h2{
+    text-align: center;
+    text-decoration: underline black;
+    font-size: 40px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    letter-spacing: 3px;
+    text-decoration: underline black;
+}
+
+.company_info .text{
+    background-color: #bcbcbc8a;
 }
