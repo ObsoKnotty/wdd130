@@ -9,7 +9,7 @@ body{
     width: 70%;
     height: auto;
     margin: auto;
-    
+    background-color:#635e5e;
 }
 
 header {
@@ -18,9 +18,6 @@ header {
 	grid-template-columns: 200px 1fr;
     border: 1px solid black;
     place-items: center stretch;
-}
-
-header img{   
 }
 
 nav {
@@ -43,11 +40,8 @@ nav {
 }
 
 
-main{
-
-}
-
 .hero{
+    
     margin-top: 10px;
     position: relative;
 }
@@ -56,6 +50,7 @@ main{
     display:block;
     width: 100%;
     height: auto;
+    border-radius: .5rem;
 }
 
 
@@ -67,11 +62,23 @@ main{
     font-family: "Quicksand", serif;
 }
 
+.hero h2 {
+    top: 0%;
+    color: var(--primary-color);
+    position: absolute;
+    left: 0; 
+    right: 0; 
+    margin-inline: auto; 
+    width: fit-content;
+    font-family: "Quicksand", serif;
+    font-size: 30px;
+    text-decoration: underline black;
+}
 
 .hero article {
     top: 30%;
     position: absolute;
-    background-color:#bcbcbcc0;
+    background-color:#bcbcbc9d;
 }
 
 .hero article img{
@@ -262,7 +269,8 @@ input[type="checkbox"] {
 }
 
 button {
-    margin: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
     background-color: var(--secondary-color);
     color: white;
     border: none;
@@ -276,13 +284,20 @@ button:hover {
 }
 
 .form-item {
-    display: grid;
-    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+
 }
 
 .column1 {
-    grid-template-columns: 3fr 1fr;
-    margin: 1rem 0;
+    display:inline-block;
+    text-align:center;
+}
+
+.column1 label {
+    text-align: left;
 }
 
 .column2{
@@ -320,3 +335,33 @@ button:hover {
 .company_info .text{
     background-color: #bcbcbc8a;
 }
+
+.call button{
+    display: block;
+    width: 100%;
+}
+
+.wrapper {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows:auto auto;
+    place-self: center;
+    background-color: var(--accent1-color);
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 0.5em;
+    border: thin solid black;
+  }
+
+  .box {
+    margin-top: 10px;
+  }
+
+  .box img {
+    width: 220px;
+    height: 220px;
+  }
+
+  
+  
