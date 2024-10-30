@@ -364,4 +364,94 @@ button:hover {
   }
 
   
+
+  .grid {
+    margin-top: 1em;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 1em;
+  }
+
+
+  .box-side{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 1em;
+  }
+
+  .box-side > *{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    gap: 10px
+  }
+
+  table{
+    border-radius: 0.5em;
+    border:1px solid black;
+    background-color: var(--accent1-color);
+  }
+
+  th, td {
+    border:1px solid black;
+    background-color: var(--accent1-color);
+  }
+
+  caption{
+    caption-side: top;
+    border: thin solid black;
+  }
+
+
+
+
+
+  .box-main{
+    background-color: var(--accent1-color);
+  }
+
+
+  ul {
+    display: flex;
+    list-style: none;
+    margin-block: 2rem;
+    margin-inline: auto;
+    overflow: auto;
+    scroll-snap-type: x mandatory;
+  }
   
+  li {
+    display: grid;
+    place-items: end;
+    font-size: 3rem;
+  
+    aspect-ratio: 2/1;
+    width: 105%;
+    flex-shrink: 0;
+    scroll-snap-align: start;
+  }
+  
+  #trip1 {
+    background-image: url("/wwr/images/rafting31_300small.jpg");
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+  }
+
+  #trip2 {
+    background-image: url("/wwr/images/rafting18_100small.jpg");
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+  }
+
+  #trip3 {
+    background-image: url("/wwr/images/rafting75_700small.jpg");
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+  }
+ 
+  .shade{
+    background-color: #ebe3e3be;
+    font-size: x-large;
+  }
