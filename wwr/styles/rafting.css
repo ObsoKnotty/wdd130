@@ -434,19 +434,19 @@ button:hover {
   }
   
   #trip1 {
-    background-image: url("/wwr/images/rafting31_300small.jpg");
+    background-image: url("https://byui-cse.github.io/wdd130-ww-course/resources/images/rafting55_1024.jpg");
     background-size:100% 100%;
     background-repeat: no-repeat;
   }
 
   #trip2 {
-    background-image: url("/wwr/images/rafting18_100small.jpg");
+    background-image: url("https://byui-cse.github.io/wdd130-ww-course/resources/images/rafting57_1024.jpg");
     background-size:100% 100%;
     background-repeat: no-repeat;
   }
 
   #trip3 {
-    background-image: url("/wwr/images/rafting75_700small.jpg");
+    background-image: url("https://byui-cse.github.io/wdd130-ww-course/resources/images/rafting7_600.jpg");
     background-size:100% 100%;
     background-repeat: no-repeat;
   }
